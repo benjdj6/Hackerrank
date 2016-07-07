@@ -1,0 +1,1 @@
+print('not pangram' if len(set(str.lower(input()))) != 27 else 'pangram')
